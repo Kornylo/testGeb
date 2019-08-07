@@ -1,0 +1,141 @@
+plugins {
+    id "idea"
+    id "groovy"
+    id "com.energizedwork.webdriver-binaries" version "1.4"
+    id "com.energizedwork.idea-base" version "1.4"
+}
+
+ext {
+    // The drivers we want to use
+    drivers = ["chrome, firefox, ie"]
+
+    ext {
+        spockVersion = '1.2-groovy-2.4'
+        groovyVersion = '2.4.12'
+        reportiumVersion = '2.2.1'
+        gebVersion = '2.1'
+        junitVersion = '4.12'
+        slf4jVersion = '1.7.6'
+        commonsLoggingVersion = '1.1.2'
+        seleniumVersion = '3.141.59'
+        chromeDriverVersion = '2.32'
+        geckoDriverVersion = '0.19.1'
+        ieDriverVersion = '3.141.0'
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://repo1.perfectomobile.com/public/repositories/maven'
+    }
+    jcenter()
+}
+
+
+dependencies {
+    // If using Spock, need to depend on geb-spock
+    compile "org.gebish:geb-spock:$gebVersion"
+    compile "org.codehaus.groovy:groovy-all:$groovyVersion"
+    compile "com.perfecto.reporting-sdk:reportium-java:$reportiumVersion"
+    compile "com.perfecto.reporting-sdk:reportium-testng:$reportiumVersion"
+
+    //HTTP with groovy
+    // https://mvnrepository.com/artifact/org.codehaus.groovy.modules.http-builder/http-builder
+    //compile group: 'org.codehaus.groovy.modules.http-builder', name: 'http-builder', version: '0.7'
+
+    // https://mvnrepository.com/artifact/org.ccil.cowan.tagsoup/tagsoup
+    compile group: 'org.ccil.cowan.tagsoup', name: 'tagsoup', version: '1.2.1'
+
+    // https://mvnrepository.com/artifact/com.oracle/ojdbc14
+    compile group: 'com.oracle', name: 'ojdbc6', version: '11.2.0.3'
+
+    // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
+    //compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+
+    testCompile("org.spockframework:spock-core:1.1-groovy-2.4") {
+        exclude group: "org.codehaus.groovy"
+    }
+    testCompile( 'com.athaydes:spock-reports:1.3.1' ) {
+        transitive = false // this avoids affecting your version of Groovy/Spock
+    }
+    compile "org.slf4j:slf4j-simple:$slf4jVersion"
+    compile "commons-logging:commons-logging:$commonsLoggingVersion"
+
+    // If using JUnit, need to depend on geb-junit (3 or 4)
+    testCompile group: 'junit', name: 'junit', version: junitVersion
+
+    // Drivers
+    compile "org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion"
+    compile "org.seleniumhq.selenium:selenium-firefox-driver:$seleniumVersion"
+    compile "org.seleniumhq.selenium:selenium-ie-driver:$seleniumVersion"
+    compile "org.seleniumhq.selenium:selenium-remote-driver:$seleniumVersion"
+    compile "org.seleniumhq.selenium:selenium-support:$seleniumVersion"
+
+    //PDFBox for pdf scraping
+    compile 'org.apache.pdfbox:pdfbox:1.8.1'
+    compile 'org.apache.pdfbox:fontbox:1.8.1'
+    compile 'org.bouncycastle:bcprov-jdk16:1.45'
+    // https://mvnrepository.com/artifact/javax.mail/javax.mail-api
+    compile 'javax.mail:javax.mail-api:1.6.0'
+    compile 'com.sun.mail:javax.mail:1.5.1'
+
+}
+
+/**
+ * Delete the failure screenshots and logs directory at the end of the gradle clean task.
+ */
+clean.doLast {
+    file('screenshots/').deleteDir()
+}
+/**
+ * Configuration for all test tasks (exclude patterns, logging, reporting)
+ */
+tasks.withType(Test) {
+    exclude '**/*BaseSpec'
+
+    systemProperties = System.getProperties()
+
+    testLogging {
+        events "PASSED", "STARTED", "FAILED", "SKIPPED"
+        showCauses = true
+        showExceptions = true
+        showStackTraces = true
+        showStandardStreams = true
+        exceptionFormat = 'full'
+    }
+
+    reports {
+        html.setDestination(reporting.file("/tests") as File)
+        File testResultsLocation = file("$buildDir/test-results")
+        junitXml.setDestination(testResultsLocation)
+    }
+
+    ignoreFailures = false
+}
+/**
+ * Executes the scripts, run smoke tests and take screenshots.
+ */
+task smokeTest(type: Test) {
+    include '**/smoketests/'
+    systemProperty 'spock.configuration', 'src/test/resources/SpockConfigSmoke.groovy'
+    systemProperty 'spock.configuration', 'src/test/resources/SpockConfigScreenshot.groovy'
+    // Even if we can't successfully capture all screenshots in one run, we should continue the build and capture as much as we can
+    ignoreFailures = true
+}
+task regressionTest(type: Test){
+    include "**/regressiontests/${System.getProperty("regressionTestPackage","")}"
+    systemProperty 'spock.configuration', 'src/test/resources/SpockConfigRegression.groovy'
+    systemProperty 'spock.configuration', 'src/test/resources/SpockConfigScreenshot.groovy'
+ //   ignoreFailures = true
+}
+sourceSets {
+    test {
+        groovy {
+            srcDirs = ['src/test/groovy', 'src/test/java']
+        }
+        java {
+            srcDirs = []
+        }
+    }
+}

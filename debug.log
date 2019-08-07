@@ -1,0 +1,5 @@
+[0814/095411.786:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0815/085452.715:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0823/115057.202:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0913/152459.302:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0913/152459.306:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)

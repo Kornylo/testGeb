@@ -1,0 +1,83 @@
+Welcome to the Medtronic Diabetes CareLink web site, owned and operated by Medtronic. Medtronic is the name we use to refer to our whole business, which includes Medtronic MiniMed, Inc. (doing business as Medtronic Diabetes), and any other companies that it controls, such as its subsidiaries and affiliates. Privacy is very important to us, and we also understand that privacy is very important to you. This Privacy Policy tells you how we protect and use information that we gather through this web site. This Privacy Policy does not apply to the other Medtronic web sites. You should review the privacy policy posted on those other web sites when you visit them.
+This Privacy Policy was last revised on the date listed below in the "Changes to Privacy Policy" paragraph. We may change this Privacy Policy at any time and for any reason. We encourage you to review this Privacy Policy each time you visit the web site. (Please note that any patient health information obtained by Medtronic through other means (separate from this web site), is governed by our Notice of Privacy Practices.)
+By using this web site, you agree to the terms of the most recent version of this Privacy Policy. Please read our Terms of Use to understand the general rules about your use of this web site. Except as written in any other disclaimers, policies, terms of use, or other notices on this web site, this Privacy Policy and the Terms of Use are the complete agreement between you and Medtronic with respect to your use of this web site. You may be subject to additional terms that may apply when you access particular services or materials on certain areas in this web site, or by following a link from this web site.
+Introduction
+The information we receive, and how we use it, depends on what you do and the data you provide when visiting our web site. We collect and use Non-personal Information differently than "Personal Information", as defined and explained in detail below.
+
+Please note that this Medtronic Diabetes CareLink web site is intended for use by health care professionals (HCPs), such as physicians, for purposes of storing, reporting, and tracking certain health, personal, or medical data of patients or other individuals under the care or supervision of the HCP (hereinafter referred to as "Patients"). Therefore, this Privacy Policy is applicable to both information provided by the HCP (you) as the user of this web site, as well as any health, personal, or medical data you provide regarding or on behalf of your Patients.
+What is Non-personal Information?
+For purposes of this Privacy Policy, "Non-personal Information" is defined as information we collect through this web site that does not identify, and cannot be used to identify, you or any Patients as individuals. It may include information such as the following:
+the type of web browser software you use (for example, Netscape Navigator, Mozilla Firefox, or Internet Explorer)
+the name of the domain from which you access the Internet
+the Internet address of the web site from which you linked directly to our web site
+the date and time you access our web site
+which pages you have visited on our web site
+the search terms you use
+the links on which you click
+"Personal Information" (as defined below) of the web site user that has been made completely anonymous, and therefore cannot be used to identify, reveal, or reference any individual user
+Personal Information, medical data, and/or health data of Patients that has been completely de-identified and made anonymous, and therefore cannot be used to identify, reveal, or reference any individual Patient (except possibly by you or your staff/personnel, if ID numbers are used to reference Patients in CareLink)
+If you visit our web site to read or download information, such as information about the web site application, our products or our therapies, we may collect certain Non-personal Information about you from your computer. This information is collected from your computer's web browser. If you only read or download information on our web site, we do not collect or learn your name, e-mail address, home address, or other Personal Information about you. We may place a text file called a cookie in the browser files of your computer when you visit. The cookie may be stored on your computer's hard drive. The information that we collect using cookies is Non-personal Information. You are always free to decline our cookies if your browser permits, but some parts of our web site may not work properly for you if you do so. We will not allow third parties other than those companies that we hire to perform services or functions on our behalf to place cookies on or though our web site.
+What does Medtronic do with Non-personal Information?
+Because Non-personal Information (as defined herein) cannot be used identify you or any Patients, Medtronic may use such Non-personal Information for acceptable and reasonable business or clinical reasons, which comply with applicable laws and regulations. For example, we are always looking for ways to better serve you and improve this web site. We may also use Non-personal Information for appropriate clinical, customer service, research, or business purposes, to find advancements or improvements in our products or therapies. For example, we may use Non-personal Information to:
+create reports for internal use to develop programs, products, services or content
+customize the information or services that are of interest to you or patients generally
+provide aggregated information on how visitors use our site, such as "traffic statistics" and "response rates," to third parties
+share with other parties that may have common business or health care interests
+analyze, aggregate, report, share, and/or utilize for clinical or therapy related reasons
+What is Personal Information?
+For purposes of this Privacy Policy, "Personal Information" is defined as information we collect through this web site that can be used to specifically identify you or individual Patients, including the following data elements:
+name, date of birth
+home address, telephone number
+e-mail address
+medical device serial number
+medical or health data
+In some places on this web site, you have the opportunity to send us Personal Information about yourself, to elect to receive particular information, or to participate in an activity. For example, you may fill out a registration form, a survey, or an e-mail form and you may elect to receive educational material about our products and therapies. You also may choose to allow us to personalize your visits to the web site, in which case we will ask you for certain Personal Information to make your visits to our web site more helpful to you. When this information is combined with the Non-personal Information that we collect through cookies (described above), we will be able to tell that you have visited our web site before and can personalize your access to our web site, for example, by telling you about new features that may be of interest to you.
+
+When utilizing the CareLink application available on this web site, you may also provide or upload Personal Information about your Patients, consisting of their medical and/or health data as well as certain demographic information (for example, the name, address, date of birth, etc.).
+How does Medtronic keep and use Personal Information?
+Medtronic may keep and use Personal Information about you or your Patients for appropriate purposes such as improving customer service, analysis, improving or advancing Medtronic products and therapies, studies or publications, and other reasonable and legitimate purposes that are in compliance with applicable laws. With respect to you as the web site user, your Personal Information may be kept and used to:
+Respond to your requests
+Personalize your access to our web site, for example, by telling you about new features that may be of interest to you
+Contact you with information that might be of interest to you, including information about clinical trials and about products and services of ours and of others
+Enforce this Privacy Policy and other rules about your use of this web site
+Protect our rights or property
+Protect someone's health, safety or welfare
+Comply with a law or regulation, court order or other legal process
+The Personal Information you provide about Patients may be used:
+To develop records or reports of their personal, medical or health data, as appropriate for using the CareLink application
+For analytical purposes, including to analyze, develop, and improve Medtronic programs, products, services, and content
+To remove all Personal Information and identifiers (name, address, date of birth, e-mail address, social security number, and any other element of individually identifiable information). Once we have completely removed all such information so that it is completely anonymous and cannot be used to indentify or reference any individual Patient, it is considered "Non-personal Information" as defined herein, and may be utilized as Non-personal Information (described above).
+To protect our rights or property
+To comply with a law or regulation, court order or other legal process
+As mentioned above, Medtronic may store, analyze and utilize Personal Information (such as patient personal, medical or health data) received or collected from this web site to advance or improve on our medical products, treatment, and therapies. In certain countries and jurisdictions, this is an acceptable use of such information. Nevertheless, to meet all applicable privacy and data protection laws, you must obtain appropriate written consent and permission from your Patients, prior to sharing or uploading their Personal Information on this web site. (Please see the sample Patient Consent Form provided by Medtronic for your use.)
+
+All Personal Information (as well as certain Non-personal Information) about your Patients will be stored electronically on secure servers (databases) that are located in the U.S. (for patients residing in the U.S.) or Europe (for all non-U.S. patients). Therefore, depending on your location, such information may cross country borders when stored on a secure server.
+Does Medtronic ever share Personal Information with third parties?
+Medtronic will not share any Personal Information about you or any Patient collected from this web site with any unrelated third party without your express permission, except as provided below in this Privacy Policy.
+
+In the ordinary course of business, we may share some Personal Information with companies that we hire to perform services or functions on our behalf. For example, we may use different vendors or suppliers to ship products that you order on our web site. In these cases, we will provide the vendor with the minimum information to process your order, such as your name and mailing address. In all cases where we share your Personal Information with a third party, we will require them to follow acceptable privacy and data protection standards, and restrict them to use your information only for the purpose of providing the services we asked them to provide. We will not sell, exchange or publish your Personal Information, except in conjunction with a corporate sale, merger, dissolution, or acquisition.
+
+We may be legally compelled to release Personal Information in response to a court order, subpoena, search warrant, law or regulation. We may cooperate with law enforcement authorities in investigating and prosecuting web site visitors who violate our rules or engage in behavior which is harmful to other visitors (or illegal).
+
+We may disclose Personal Information to third parties if we feel such disclosure is necessary to:
+enforce this Privacy Policy and the other rules about your use of this web site
+protect our rights or property
+protect someone's health, safety or welfare
+comply with a law or regulation, court order or other legal process
+Please note
+In addition to the ways that we may keep, disclose, and use information described in this Privacy Policy, we also may keep, disclose, and use Personal Information that you give us through this web site in ways that we believe are consistent with applicable government guidance, directions, regulations, and laws.
+What about privacy on other web sites?
+This web site may contain links to other web sites. Some of those web sites may be operated by Medtronic, and some may be operated by third parties. We provide the links for your convenience, but we do not review, control, or monitor the privacy practices of web sites operated by others. This Privacy Policy does not apply to any other web site, even the other Medtronic web sites. We are not responsible for the performance of web sites operated by third parties or for your business dealings with them. Therefore, whenever you leave this web site we recommend that you review each web site's privacy practices and make your own conclusions regarding the adequacy of these practices.
+Does Medtronic ever communicate directly with visitors to this web site?
+We may contact you periodically by e-mail, mail or telephone if you agree to that contact to provide information regarding programs, products, services and content that may be of interest to you. In addition, some of the features on this web site allow you to communicate with us using an online form. If your communication requests a response from us, we will send you a response via e-mail. The e-mail response or confirmation may include your Personal Information, including Personal Information about your health, your name, address, etc. We cannot guarantee that our e-mails to you will be secure from unauthorized interception.
+What about web site security?
+Security is very important to us. We also understand that security is important to you. We take reasonable steps to protect all Personal Information from loss, misuse, and unauthorized access, disclosure, alteration, or destruction. You should keep in mind that no Internet transmission is ever 100% secure or error-free. In particular, e-mail sent to or from this web site may not be secure (for example, when sending a message to our customer service office through this website site), and you should therefore take special care in deciding what information you send to us via e-mail and avoid including any Patient information.
+How to contact Medtronic
+If you have any questions, comments, or concerns about this Privacy Policy or the information practices of this site, please contact us as follows:
+Medtronic MiniMed, Inc.
+18000 Devonshire Street
+Northridge, CA 91325-1219
+ATTN: Manager, Website (CareLink)
+Or, visit our Contact Us section.
+Changes to Privacy Policy
+This Privacy Policy was last updated on November 1, 2009. If this Privacy Policy is revised, the most current policy will be posted on this site. Please check back periodically, and especially before you provide any personally identifiable information.

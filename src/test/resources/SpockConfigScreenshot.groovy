@@ -1,5 +1,4 @@
-import com.medtronic.ndt.carelink.context.RegressionTest
-import com.medtronic.ndt.carelink.context.SmokeTest
+import com.kornylo.test.geb.context.RegressionTest
 
 /**
  * Spock configuration file for running screenshot scripts

@@ -1,5 +1,5 @@
-import com.medtronic.ndt.carelink.context.RegressionTest
-import com.medtronic.ndt.carelink.util.EnvUtil
+import com.kornylo.test.geb.context.RegressionTest
+
 
 /**
  * Spock configuration file for running carelink smoke tests

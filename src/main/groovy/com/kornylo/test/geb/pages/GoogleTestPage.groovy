@@ -18,7 +18,7 @@ class GoogleTestPage extends Page {
         searchButton(required: false) { $('#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input') }
         sss (required: false){$('#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input')}
         search(required: false){$('#tsf > div:nth-child(2) > div.A8SBwf > div.FPdoLc.VlcLAe > center > input.gNO89b')}
-        result{$('#rso > div:nth-child(1) > div > div > div > div > div.r > a > h3')}
+        result{$('#rso > div:nth-child(1) > div > div:nth-child(1) > div > div.rc > div.r > a > h3')}
     }
 
     public void printPageTitle() {
@@ -34,7 +34,7 @@ void saearch (String string){
     void button () {
         search.click()
     }
-    public verifyTextAfterSearch(String Text) {
+    public void verifyTextAfterSearch(String Text) {
         waitFor { result.displayed }
         assert result.text().contains(Text)
     }

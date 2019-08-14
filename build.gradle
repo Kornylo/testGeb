@@ -7,7 +7,7 @@ plugins {
 
 ext {
     // The drivers we want to use
-    drivers = ["chrome, firefox, ie"]
+    drivers = ["chrome, firefox, ie, safari"]
 
     ext {
         spockVersion = '1.2-groovy-2.4'

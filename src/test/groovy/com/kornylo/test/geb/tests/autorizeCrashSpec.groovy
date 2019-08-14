@@ -13,7 +13,7 @@ class autorizeCrashSpec extends CareLinkSpec {
         then: 'User can click'
         autorizeCrashTestPage.printPageTitle()
         autorizeCrashTestPage.mainPage()
-        autorizeCrashTestPage.signIn()
+        autorizeCrashTestPage.clickOnSignInButton()
         autorizeCrashTestPage.signPage()
         autorizeCrashTestPage.eMail('sss')
         autorizeCrashTestPage.submitButton()

@@ -15,22 +15,22 @@ class AutorizeCrashTestPage extends Page {
     static content = {
         // Username
         carousel(required: false) { $("#homeslider > li:nth-child(2) > div") }
-        buttonIn(required: false) {$('#header > div.nav > div > div > nav > div.header_user_info > a')}
+        signIn(required: false) {$('#header > div.nav > div > div > nav > div.header_user_info > a')}
         verifyPage(required: false) {$('#center_column > h1')}
         address(required: false) {$('#email_create')}
         submit(required: false) {$('#SubmitCreate')}
         result{$('#create_account_error > ol > li')}
 
     }
-    public void printPageTitle() {
+     void printPageTitle() {
         driver.getTitle()
 
     }
     boolean mainPage() {
         carousel.displayed
     }
-    void signIn() {
-        buttonIn.click()
+    void clickOnSignInButton() {
+        signIn.click()
     }
     boolean signPage() {
         verifyPage.displayed
@@ -41,7 +41,7 @@ class AutorizeCrashTestPage extends Page {
     void submitButton() {
         submit.click()
     }
-    public void verifyAddress(String Text) {
+     void verifyAddress(String Text) {
         waitFor { result.displayed }
         assert result.text().contains(Text)
     }
